@@ -199,7 +199,7 @@ for handling order-related queries. The customer’s inquiry about payment confi
 status. The agent determined that the payment had failed and provided an appropriate response
 with clear next steps for the customer.
 The second pair of images (Figures 4 and 5) showcases the Type A agent’s performance in
-![input_email](https://github.com/user-attachments/assets/68b3d756-d3c1-4f5e-94b4-f34c9311eb85)
+![input_email](mail.png)
 Figure 2: Input email received by the system showing customer inquiry about payment confirmation
 for order ID 7.
 
@@ -209,24 +209,18 @@ Figure 3: AI-generated structured output email providing payment status informat
 instructions.
 
 handling policy-related inquiries. Shubham’s question about return options represents a typical
-customer service scenario where policy information needs to be retrieved and explained. The RAGbased agent successfully identified this as a return policy query and provided comprehensive guidance
+customer service scenario where policy information needs to be retrieved and explained. The RAG-based
+agent successfully identified this as a return policy query and provided comprehensive guidance
 about the return process, including the time limitations and account navigation instructions.
+
 This example demonstrates the system’s ability to handle ambiguous queries where the customer
 doesn’t provide specific order details but still expects helpful guidance. The response includes both
 general return policy information and a request for more specific details (order number) to provide
 further assistance, showcasing the agent’s conversational intelligence and problem-solving approach.
-The implementation demonstrates the system’s ability to process natural language queries, execute database operations, and generate contextually appropriate responses. The first example shows
-how the agent successfully identified the payment failure status for order ID 7 and provided a comprehensive response with appropriate follow-up actions. The second example illustrates the system’s
-capability to handle return policy inquiries by providing clear guidance on the return process and
-policy limitations.
 
-
-
-![input_email2](https://github.com/user-attachments/assets/7a6a772c-e960-486b-b81f-f0fb09c3cf95)
+![input_email](mail2.png)
 
 Figure 4: Input email from customer Shubham inquiring about return options for an order.
 
-
 ![output_image2](https://github.com/user-attachments/assets/af2979c1-a232-4b09-8910-5bad5812c1c2)
 
-Figure 5: AI-generated response providing return policy information and guidance for order returns
